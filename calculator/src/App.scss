@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: rgb(121,255,233);
+    background: linear-gradient(90deg, rgba(121,255,233,1) 0%, rgba(255,124,254,1) 100%, rgba(255,12,248,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+
+    h1 {
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    input{
+        font-weight: bold;
+        width: 15.5rem;
+        height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    button {
+        width: 4rem;
+        height: 2rem;
+        background-color: white;
+        border: none;
+    }
+
+    button:hover{
+        background-color: gray;
+    }
+
+    .result {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+}
+
